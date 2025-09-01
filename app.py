@@ -379,7 +379,7 @@ def sitemap():
     # Add state pages
     for state in states:
         sitemap_content += f'  <url>\n'
-        sitemap_content += f'    <loc>https://yourdomain.com/state/{state}</loc>\n'
+        sitemap_content += f'    <loc>https://www.baronllc.online/state/{state}</loc>\n'
         sitemap_content += f'    <lastmod>{datetime.now().strftime("%Y-%m-%d")}</lastmod>\n'
         sitemap_content += f'    <changefreq>weekly</changefreq>\n'
         sitemap_content += f'    <priority>0.8</priority>\n'
@@ -389,7 +389,7 @@ def sitemap():
         cities = get_cities_for_state(state)
         for city in cities:
             sitemap_content += f'  <url>\n'
-            sitemap_content += f'    <loc>https://yourdomain.com/city/{state}/{city}</loc>\n'
+            sitemap_content += f'    <loc>https://www.baronllc.online/city/{state}/{city}</loc>\n'
             sitemap_content += f'    <lastmod>{datetime.now().strftime("%Y-%m-%d")}</lastmod>\n'
             sitemap_content += f'    <changefreq>weekly</changefreq>\n'
             sitemap_content += f'    <priority>0.7</priority>\n'
@@ -404,7 +404,7 @@ def robots():
     robots_content = """User-agent: *
 Allow: /
 
-Sitemap: https://yourdomain.com/sitemap.xml"""
+Sitemap: https://www.baronllc.online/sitemap.xml"""
     return app.response_class(robots_content, mimetype='text/plain')
 
 @app.route('/api/states')
