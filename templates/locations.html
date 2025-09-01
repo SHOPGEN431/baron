@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}All Locations - LLC Formation Services Directory - Baron LLC Directory{% endblock %}
+{% block description %}Browse our complete directory of LLC formation services by state and city. Find local business formation services across all 50 states.{% endblock %}
+
+{% block content %}
+<!-- Locations Header -->
+<section class="locations-header">
+    <div class="container">
+        <div class="locations-header-content">
+            <h1 class="locations-title">All Locations</h1>
+            <p class="locations-subtitle">Browse our complete directory of LLC formation services by state and city</p>
+            <div class="locations-stats">
+                <div class="stat">
+                    <span class="stat-number">{{ states|length }}</span>
+                    <span class="stat-label">States</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">{{ total_cities }}</span>
+                    <span class="stat-label">Cities</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- States and Cities Section -->
+<section class="locations-section">
+    <div class="container">
+        <div class="locations-grid">
+            {% for state in states %}
+            <div class="state-location-card">
+                <div class="state-header">
+                    <h2 class="state-name">{{ state.name }}</h2>
+                    <span class="city-count">{{ state.cities|length }} cities</span>
+                </div>
+                
+                {% if state.cities %}
+                <div class="cities-list">
+                    {% for city in state.cities %}
+                    <div class="city-item">
+                        <a href="/city/{{ state.abbreviation }}/{{ city }}" class="city-link">
+                            {{ city }}
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="no-cities">
+                    <p>No cities available</p>
+                </div>
+                {% endif %}
+                
+                <div class="state-actions">
+                    <a href="/state/{{ state.abbreviation }}" class="btn btn-outline">View {{ state.name }}</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Quick Navigation -->
+<section class="quick-nav">
+    <div class="container">
+        <h2 class="section-title">Quick Navigation</h2>
+        <div class="alphabet-nav">
+            {% for letter in alphabet %}
+            <a href="#{{ letter }}" class="letter-link">{{ letter }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Need Help Finding Local LLC Services?</h2>
+            <p>Our directory connects you with professional business formation services across all 50 states.</p>
+            <div class="cta-actions">
+                <a href="/contact" class="btn btn-primary">Contact Us</a>
+                <a href="/" class="btn btn-secondary">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

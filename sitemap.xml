@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main Pages -->
+    <url>
+        <loc>https://yourdomain.com/</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/about</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/contact</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/privacy</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/locations</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- State Pages -->
+    <url>
+        <loc>https://yourdomain.com/state/Alabama</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Alaska</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Arizona</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Arkansas</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/California</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Colorado</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Connecticut</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Delaware</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Florida</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Georgia</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Hawaii</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Idaho</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Illinois</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Indiana</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Iowa</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Kansas</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Kentucky</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Louisiana</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Maine</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Maryland</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Massachusetts</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Michigan</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Minnesota</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Mississippi</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Missouri</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Montana</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Nebraska</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Nevada</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/New Hampshire</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/New Jersey</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/New Mexico</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/New York</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/North Carolina</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/North Dakota</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Ohio</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Oklahoma</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Oregon</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Pennsylvania</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Rhode Island</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/South Carolina</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/South Dakota</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Tennessee</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Texas</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Utah</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Vermont</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Virginia</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Washington</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/West Virginia</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Wisconsin</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/state/Wyoming</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Top Cities Pages -->
+    <url>
+        <loc>https://yourdomain.com/city/NY/New York</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/CA/Los Angeles</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/IL/Chicago</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/TX/Houston</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/AZ/Phoenix</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/PA/Philadelphia</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/TX/San Antonio</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/CA/San Diego</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/TX/Dallas</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/CA/San Jose</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/TX/Austin</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/FL/Jacksonville</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/TX/Fort Worth</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/OH/Columbus</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/NC/Charlotte</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/CA/San Francisco</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/IN/Indianapolis</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/WA/Seattle</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/CO/Denver</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/DC/Washington</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/MA/Boston</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/TX/El Paso</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/TN/Nashville</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/MI/Detroit</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/city/OK/Oklahoma City</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- API Endpoints (for reference) -->
+    <url>
+        <loc>https://yourdomain.com/api/states</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/api/cities/California</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/api/businesses/California</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://yourdomain.com/api/businesses/CA/Los Angeles</loc>
+        <lastmod>2024-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+    </url>
+</urlset>

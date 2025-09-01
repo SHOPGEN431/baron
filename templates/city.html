@@ -1,0 +1,546 @@
+{% extends "base.html" %}
+
+{% block title %}LLC Formation Services in {{ city }}, {{ state }} - Baron LLC Directory{% endblock %}
+{% block description %}Find professional LLC formation services in {{ city }}, {{ state }}. Browse our directory of business formation services and legal experts for {{ city }} businesses.{% endblock %}
+
+{% block content %}
+<!-- City Header -->
+<section class="city-header">
+    <div class="container">
+        <div class="city-header-content">
+            <h1 class="city-title">LLC Formation Services in {{ city }}, {{ state }}</h1>
+            <p class="city-subtitle">Find professional business formation services and legal guidance for {{ city }} businesses</p>
+            <div class="city-stats">
+                <div class="stat">
+                    <span class="stat-number">{{ businesses|length }}</span>
+                    <span class="stat-label">Service Providers</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Online LLC Services Section -->
+<section class="online-services-section">
+    <div class="container">
+        <h2 class="section-title">Top Online LLC Formation Services</h2>
+        <p class="section-subtitle">These nationwide services can help you form your LLC in {{ city }}, {{ state }} from anywhere for both state and the city</p>
+        <div class="online-services-grid">
+            <div class="online-service-card featured">
+                <div class="service-header">
+                    <h3 class="service-name">Northwest Registered Agent</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-text">4.7/5</span>
+                        <span class="reviews-count">(1,645 reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$39</strong> Formation Service</p>
+                    <p class="service-features">Includes Registered Agent, Business Address, Email, Domain, Website, Mail Forwarding</p>
+                    <p class="service-highlight">Privacy by Default® - No spam, no junk mail</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Lowest price at $39</li>
+                                <li>Privacy protection included</li>
+                                <li>Comprehensive service package</li>
+                                <li>Excellent customer service</li>
+                                <li>No hidden fees</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Limited additional services</li>
+                                <li>Basic website template only</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://consumer-champion.org/LLCwebsite" target="_blank" rel="noopener" class="btn btn-primary">Visit Northwest</a>
+                </div>
+            </div>
+            
+            <div class="online-service-card">
+                <div class="service-header">
+                    <h3 class="service-name">LegalZoom</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐☆</span>
+                        <span class="rating-text">4.2/5</span>
+                        <span class="reviews-count">(2,100+ reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$79</strong> + State Fees</p>
+                    <p class="service-features">LLC Formation, Operating Agreement, EIN Application</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Well-known brand</li>
+                                <li>Comprehensive legal services</li>
+                                <li>Operating agreement included</li>
+                                <li>EIN application service</li>
+                                <li>Good customer support</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Higher price point</li>
+                                <li>Upselling during process</li>
+                                <li>Annual fees can add up</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://www.legalzoom.com" target="_blank" rel="noopener" class="btn btn-primary">Visit LegalZoom</a>
+                </div>
+            </div>
+            
+            <div class="online-service-card">
+                <div class="service-header">
+                    <h3 class="service-name">Rocket Lawyer</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐☆</span>
+                        <span class="rating-text">4.1/5</span>
+                        <span class="reviews-count">(1,800+ reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$99</strong> + State Fees</p>
+                    <p class="service-features">LLC Formation, Legal Document Review, Attorney Consultation</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Attorney consultation included</li>
+                                <li>Legal document review</li>
+                                <li>Subscription model available</li>
+                                <li>Ongoing legal support</li>
+                                <li>Professional legal network</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Higher initial cost</li>
+                                <li>Subscription required for full benefits</li>
+                                <li>Limited to legal services only</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://www.rocketlawyer.com" target="_blank" rel="noopener" class="btn btn-primary">Visit Rocket Lawyer</a>
+                </div>
+            </div>
+            
+            <div class="online-service-card">
+                <div class="service-header">
+                    <h3 class="service-name">ZenBusiness</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-text">4.6/5</span>
+                        <span class="reviews-count">(1,200+ reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$0</strong> + State Fees</p>
+                    <p class="service-features">Free LLC Formation, Registered Agent, Compliance Monitoring</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Free formation service</li>
+                                <li>Compliance monitoring included</li>
+                                <li>Registered agent service</li>
+                                <li>Good customer reviews</li>
+                                <li>Transparent pricing</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Annual fees after first year</li>
+                                <li>Limited free features</li>
+                                <li>Upselling to premium plans</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://www.zenbusiness.com" target="_blank" rel="noopener" class="btn btn-primary">Visit ZenBusiness</a>
+                </div>
+            </div>
+            
+            <div class="online-service-card">
+                <div class="service-header">
+                    <h3 class="service-name">Incfile</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐☆</span>
+                        <span class="rating-text">4.3/5</span>
+                        <span class="reviews-count">(950+ reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$0</strong> + State Fees</p>
+                    <p class="service-features">Free LLC Formation, Registered Agent, Business Address</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Free formation service</li>
+                                <li>Registered agent included</li>
+                                <li>Business address service</li>
+                                <li>Simple process</li>
+                                <li>No hidden fees</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Basic service only</li>
+                                <li>Limited additional features</li>
+                                <li>Annual fees for ongoing services</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://www.incfile.com" target="_blank" rel="noopener" class="btn btn-primary">Visit Incfile</a>
+                </div>
+            </div>
+            
+            <div class="online-service-card">
+                <div class="service-header">
+                    <h3 class="service-name">Swyft Filings</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐☆</span>
+                        <span class="rating-text">4.4/5</span>
+                        <span class="reviews-count">(800+ reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$49</strong> + State Fees</p>
+                    <p class="service-features">LLC Formation, Registered Agent, Compliance Alerts</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Mid-range pricing</li>
+                                <li>Compliance alerts included</li>
+                                <li>Registered agent service</li>
+                                <li>Good customer service</li>
+                                <li>Fast processing</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Limited additional services</li>
+                                <li>Annual fees for ongoing support</li>
+                                <li>Basic compliance monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://www.swyftfilings.com" target="_blank" rel="noopener" class="btn btn-primary">Visit Swyft Filings</a>
+                </div>
+            </div>
+            
+            <div class="online-service-card">
+                <div class="service-header">
+                    <h3 class="service-name">MyCorporation</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐☆</span>
+                        <span class="rating-text">4.0/5</span>
+                        <span class="reviews-count">(700+ reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$99</strong> + State Fees</p>
+                    <p class="service-features">LLC Formation, Business Compliance, Document Filing</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Comprehensive compliance services</li>
+                                <li>Document filing included</li>
+                                <li>Business compliance monitoring</li>
+                                <li>Professional service</li>
+                                <li>Good track record</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Higher price point</li>
+                                <li>Annual compliance fees</li>
+                                <li>Limited additional features</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://www.mycorporation.com" target="_blank" rel="noopener" class="btn btn-primary">Visit MyCorporation</a>
+                </div>
+            </div>
+            
+            <div class="online-service-card">
+                <div class="service-header">
+                    <h3 class="service-name">CorpNet</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐☆</span>
+                        <span class="rating-text">4.2/5</span>
+                        <span class="reviews-count">(600+ reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$89</strong> + State Fees</p>
+                    <p class="service-features">LLC Formation, Registered Agent, Compliance Services</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Comprehensive compliance services</li>
+                                <li>Registered agent included</li>
+                                <li>Professional compliance support</li>
+                                <li>Good customer service</li>
+                                <li>Experienced company</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Higher price point</li>
+                                <li>Annual compliance fees</li>
+                                <li>Limited formation features</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://www.corpnet.com" target="_blank" rel="noopener" class="btn btn-primary">Visit CorpNet</a>
+                </div>
+            </div>
+            
+            <div class="online-service-card">
+                <div class="service-header">
+                    <h3 class="service-name">BizFilings</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐☆</span>
+                        <span class="rating-text">4.1/5</span>
+                        <span class="reviews-count">(500+ reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$99</strong> + State Fees</p>
+                    <p class="service-features">LLC Formation, Compliance Monitoring, Business Services</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Comprehensive business services</li>
+                                <li>Compliance monitoring included</li>
+                                <li>Professional business support</li>
+                                <li>Good customer service</li>
+                                <li>Experienced company</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Higher price point</li>
+                                <li>Annual service fees</li>
+                                <li>Limited formation features</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://www.bizfilings.com" target="_blank" rel="noopener" class="btn btn-primary">Visit BizFilings</a>
+                </div>
+            </div>
+            
+            <div class="online-service-card">
+                <div class="service-header">
+                    <h3 class="service-name">Harbor Compliance</h3>
+                    <div class="service-rating">
+                        <span class="stars">⭐⭐⭐⭐☆</span>
+                        <span class="rating-text">4.3/5</span>
+                        <span class="reviews-count">(400+ reviews)</span>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <p class="service-price"><strong>$99</strong> + State Fees</p>
+                    <p class="service-features">LLC Formation, Compliance Management, Business Licensing</p>
+                    <div class="service-pros-cons">
+                        <div class="pros">
+                            <h4>✅ Pros:</h4>
+                            <ul>
+                                <li>Comprehensive compliance management</li>
+                                <li>Business licensing services</li>
+                                <li>Professional compliance support</li>
+                                <li>Good customer service</li>
+                                <li>Experienced in compliance</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h4>❌ Cons:</h4>
+                            <ul>
+                                <li>Higher price point</li>
+                                <li>Annual compliance fees</li>
+                                <li>Limited formation features</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-actions">
+                    <a href="https://www.harborcompliance.com" target="_blank" rel="noopener" class="btn btn-primary">Visit Harbor Compliance</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Local Service Providers Section -->
+{% if businesses %}
+<section class="businesses-section">
+    <div class="container">
+        <h2 class="section-title">Local Service Providers in {{ city }}, {{ state }}</h2>
+        <div class="businesses-grid">
+            {% for business in businesses %}
+            <div class="business-card">
+                <div class="business-header">
+                    <h3 class="business-name">{{ business.name }}</h3>
+                    {% if business.rating %}
+                    <div class="business-rating">
+                        <span class="stars">
+                            {% for i in range(5) %}
+                                {% if i < business.rating|int %}
+                                    ⭐
+                                {% else %}
+                                    ☆
+                                {% endif %}
+                            {% endfor %}
+                        </span>
+                        <span class="rating-text">{{ business.rating }}/5</span>
+                        {% if business.reviews %}
+                        <span class="reviews-count">({{ business.reviews }} reviews)</span>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+                
+                <div class="business-info">
+                    <p class="business-location">
+                        <strong>📍 {{ business.city }}, {{ business.us_state }}</strong>
+                    </p>
+                    <p class="business-address">{{ business.full_address }}</p>
+                    {% if business.phone %}
+                    <p class="business-phone">📞 {{ business.phone }}</p>
+                    {% endif %}
+                    {% if business.site %}
+                    <p class="business-website">🌐 <a href="{{ business.site }}" target="_blank" rel="noopener">Visit Website</a></p>
+                    {% endif %}
+                </div>
+                
+                {% if business.subtypes %}
+                <div class="business-services">
+                    <h4>Services Offered:</h4>
+                    <p>{{ business.subtypes }}</p>
+                </div>
+                {% endif %}
+                
+                {% if business.working_hours %}
+                <div class="business-hours">
+                    <h4>Business Hours:</h4>
+                    <p>{{ business.working_hours }}</p>
+                </div>
+                {% endif %}
+                
+                <div class="business-actions">
+                    {% if business.site %}
+                    <a href="{{ business.site }}" target="_blank" rel="noopener" class="btn btn-primary">Visit Website</a>
+                    {% endif %}
+                    {% if business.phone %}
+                    <a href="tel:{{ business.phone }}" class="btn btn-secondary">Call Now</a>
+                    {% endif %}
+                    {% if business.location_link %}
+                    <a href="{{ business.location_link }}" target="_blank" rel="noopener" class="btn btn-outline">View on Map</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% else %}
+<section class="no-businesses">
+    <div class="container">
+        <div class="no-businesses-content">
+            <h2>No Service Providers Found</h2>
+            <p>We're currently updating our directory for {{ city }}, {{ state }}. Please check back soon or contact us for assistance.</p>
+            <a href="/contact" class="btn btn-primary">Contact Us</a>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- City Info Section -->
+<section class="city-info">
+    <div class="container">
+        <h2 class="section-title">About LLC Formation in {{ city }}, {{ state }}</h2>
+        <div class="city-info-content">
+            <div class="info-card">
+                <h3>Local Business Environment</h3>
+                <p>{{ city }}, {{ state }} offers a vibrant business environment with opportunities for entrepreneurs and small business owners.</p>
+            </div>
+            <div class="info-card">
+                <h3>Formation Process</h3>
+                <ul>
+                    <li>Choose your business structure (LLC recommended)</li>
+                    <li>Select a unique business name</li>
+                    <li>File Articles of Organization</li>
+                    <li>Obtain necessary licenses and permits</li>
+                    <li>Set up business banking and accounting</li>
+                </ul>
+            </div>
+            <div class="info-card">
+                <h3>Local Resources</h3>
+                <p>Connect with local business development centers, chambers of commerce, and professional service providers in {{ city }}.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Navigation -->
+<section class="navigation">
+    <div class="container">
+        <div class="nav-links">
+            <a href="/state/{{ state }}" class="btn btn-outline">← Back to {{ state }}</a>
+            <a href="/" class="btn btn-outline">← Back to Home</a>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Need Help with {{ city }} LLC Formation?</h2>
+            <p>Our listed service providers offer expert guidance for {{ city }}, {{ state }} business formation. Connect with them today!</p>
+            <div class="cta-actions">
+                <a href="/contact" class="btn btn-primary">Get Expert Help</a>
+                <a href="/state/{{ state }}" class="btn btn-secondary">Browse {{ state }} Services</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

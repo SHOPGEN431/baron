@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Baron LLC Directory - Find LLC Formation Services{% endblock %}</title>
+    <meta name="description" content="{% block description %}Find the best LLC formation services across all 50 states. Browse our directory of professional business formation services and legal experts.{% endblock %}">
+    <meta name="keywords" content="{% block keywords %}LLC formation directory, business formation services, legal services directory, business registration, state-specific LLC services{% endblock %}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.url }}">
+    <meta property="og:title" content="{% block og_title %}Baron LLC Directory{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}Find LLC formation services across all 50 states{% endblock %}">
+    <meta property="og:image" content="https://your-domain.com/static/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ request.url }}">
+    <meta property="twitter:title" content="{% block twitter_title %}Baron LLC Directory{% endblock %}">
+    <meta property="twitter:description" content="{% block twitter_description %}Find LLC formation services across all 50 states{% endblock %}">
+    <meta property="twitter:image" content="https://your-domain.com/static/images/og-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ request.url }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/styles.css" media="all">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/static/styles.css" as="style">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Baron LLC Directory",
+        "description": "Find LLC formation services across all 50 states",
+        "url": "https://your-domain.com",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://your-domain.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="/" class="logo">
+                        <span class="logo-text">Baron</span>
+                        <span class="logo-subtitle">LLC Directory</span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="/" class="nav-link">Home</a>
+                    <div class="nav-dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">States</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <div class="states-list">
+                                    <!-- States will be populated by JavaScript -->
+                                </div>
+                                <div class="dropdown-footer">
+                                    <a href="/locations" class="btn btn-primary btn-sm">View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Cities</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <div class="cities-list">
+                                    <!-- Cities will be populated by JavaScript -->
+                                </div>
+                                <div class="dropdown-footer">
+                                    <a href="/locations" class="btn btn-primary btn-sm">View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/locations" class="nav-link">All Locations</a>
+                    <a href="/about" class="nav-link">About</a>
+                    <a href="/contact" class="nav-link">Contact</a>
+                </div>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Legal Disclaimers -->
+        <div class="legal-disclaimers">
+            <div class="container">
+                <div class="disclaimer-section">
+                    <h4>Affiliate Disclosure</h4>
+                    <p>This website may contain affiliate links. We may earn a commission when you click on or make purchases through these links at no additional cost to you. This helps support our directory service.</p>
+                </div>
+                <div class="disclaimer-section">
+                    <h4>Legal Disclaimer</h4>
+                    <p>This website is for informational purposes only and does not constitute legal, financial, or professional advice. We are not attorneys, accountants, or financial advisors. Always consult with qualified professionals for legal and financial matters related to your business.</p>
+                </div>
+                <div class="disclaimer-section">
+                    <h4>Accuracy Disclaimer</h4>
+                    <p>While we strive to provide accurate and up-to-date information, we cannot guarantee the accuracy, completeness, or timeliness of the information on this website. Business laws and regulations change frequently. Please verify all information with official sources and consult with qualified professionals before making business decisions.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Baron LLC Directory</h3>
+                <p>Find professional business formation services across all 50 states. Browse our directory of verified LLC formation experts.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Directory Categories</h4>
+                <ul class="footer-links">
+                    <li><a href="/llc-formation">LLC Formation</a></li>
+                    <li><a href="/business-registration">Business Registration</a></li>
+                    <li><a href="/legal-services">Legal Services</a></li>
+                    <li><a href="/compliance">Compliance</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p><a href="/contact" class="footer-link">Contact Us</a></p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom-container">
+                <p>&copy; 2024 Baron LLC Directory. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="LinkedIn">💼</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+        <span>↑</span>
+    </button>
+
+    <!-- Scripts -->
+    <script src="/static/script.js" defer></script>
+</body>
+</html>

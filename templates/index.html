@@ -1,0 +1,189 @@
+{% extends "base.html" %}
+
+{% block title %}Baron LLC Directory - Find LLC Formation Services Across All 50 States{% endblock %}
+{% block description %}Find the best LLC formation services across all 50 states. Browse our directory of professional business formation services and legal experts.{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title">Find LLC Formation Services</h1>
+            <p class="hero-subtitle">Browse our directory of professional business formation services across all 50 states. Connect with verified experts for your LLC formation needs.</p>
+            <div class="hero-actions">
+                <a href="https://consumer-champion.org/LLCwebsite" class="btn btn-primary" target="_blank">Get Started on LLC</a>
+                <a href="#states" class="btn btn-secondary">Browse States</a>
+            </div>
+            <div class="social-proof">
+                <p class="social-proof-text">
+                    <span class="highlight-number">{{ range(45, 68) | random }}</span> people chose Northwest Registered Agent this week
+                </p>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-graphic">
+                <div class="graphic-element">🏢</div>
+                <div class="graphic-element">📋</div>
+                <div class="graphic-element">⚖️</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+    <div class="container">
+        <h2 class="section-title">Why Use Our Directory?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🏛️</div>
+                <h3>State-Specific Expertise</h3>
+                <p>Find services tailored to each state's unique requirements and regulations.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Verified Providers</h3>
+                <p>All listed services are verified and meet our quality standards for professionalism.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h3>Comprehensive Coverage</h3>
+                <p>Services available across all 50 states and major cities nationwide.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📞</div>
+                <h3>Transparent Information</h3>
+                <p>Clear pricing, reviews, and service details to help you make informed decisions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Social Proof Section -->
+<section class="social-proof-section">
+    <div class="container">
+        <div class="social-proof-content">
+            <div class="social-proof-item">
+                <div class="social-proof-icon">👥</div>
+                <div class="social-proof-text">
+                    <span class="highlight-number">{{ range(45, 68) | random }}</span> people chose Northwest Registered Agent this week
+                </div>
+            </div>
+            <div class="social-proof-item">
+                <div class="social-proof-icon">⭐</div>
+                <div class="social-proof-text">
+                    <span class="highlight-number">{{ range(1200, 1800) | random }}</span>+ successful LLC formations
+                </div>
+            </div>
+            <div class="social-proof-item">
+                <div class="social-proof-icon">🏆</div>
+                <div class="social-proof-text">
+                    <span class="highlight-number">{{ range(4, 6) | random }}.{{ range(0, 10) | random }}</span>/5 average rating
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- States Section -->
+<section class="states" id="states">
+    <div class="container">
+        <h2 class="section-title">Browse Directory by State</h2>
+        <div class="states-grid">
+            {% for state in states %}
+            <div class="state-card">
+                <h3>{{ state.name }}</h3>
+                <p>Find LLC formation services in {{ state.name }}</p>
+                <div class="state-stats">
+                    <span class="stat-number">{{ state.city_count }}</span>
+                    <span class="stat-label">Cities</span>
+                </div>
+                <a href="/state/{{ state.name }}" class="btn btn-outline">Browse Directory</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Top Cities Section -->
+<section class="cities" id="cities">
+    <div class="container">
+        <h2 class="section-title">Top Cities by Population</h2>
+        <p class="section-subtitle">Find LLC formation services in the most populated cities across the United States</p>
+        <div class="cities-grid">
+            {% for city in top_cities %}
+            <div class="city-card">
+                <div class="city-header">
+                    <h3 class="city-name">{{ city.name }}</h3>
+                    <span class="city-state">{{ city.state }}</span>
+                </div>
+                <div class="city-info">
+                    <p class="city-population">Population: {{ city.population }}</p>
+                </div>
+                <div class="city-actions">
+                    <a href="/city/{{ city.state }}/{{ city.name }}" class="btn btn-outline">Browse Services</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Featured Businesses -->
+{% if featured_businesses %}
+<section class="featured-businesses">
+    <div class="container">
+        <h2 class="section-title">Featured Service Providers</h2>
+        <div class="businesses-grid">
+            {% for business in featured_businesses %}
+            <div class="business-card">
+                <div class="business-header">
+                    <h3 class="business-name">{{ business.name }}</h3>
+                    {% if business.rating %}
+                    <div class="business-rating">
+                        <span class="stars">
+                            {% for i in range(5) %}
+                                {% if i < business.rating|int %}
+                                    ⭐
+                                {% else %}
+                                    ☆
+                                {% endif %}
+                            {% endfor %}
+                        </span>
+                        <span class="rating-text">{{ business.rating }}/5</span>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="business-info">
+                    <p class="business-location">
+                        <strong>📍 {{ business.city }}, {{ business.us_state }}</strong>
+                    </p>
+                    <p class="business-address">{{ business.full_address }}</p>
+                    {% if business.phone %}
+                    <p class="business-phone">📞 {{ business.phone }}</p>
+                    {% endif %}
+                </div>
+                <div class="business-actions">
+                    <a href="/state/{{ business.us_state }}" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- CTA Section -->
+<section class="cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Ready to Find Your LLC Service?</h2>
+            <p>Browse our directory and connect with professional business formation services today. Find the right expert for your needs.</p>
+            <div class="cta-actions">
+                <a href="https://consumer-champion.org/LLCwebsite" class="btn btn-primary" target="_blank">Get Started on LLC</a>
+                <a href="/contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
