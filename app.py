@@ -370,7 +370,7 @@ def sitemap():
     
     for page, priority, changefreq in main_pages:
         sitemap_content += f'  <url>\n'
-        sitemap_content += f'    <loc>https://yourdomain.com{page}</loc>\n'
+        sitemap_content += f'    <loc>https://www.baronllc.online{page}</loc>\n'
         sitemap_content += f'    <lastmod>{datetime.now().strftime("%Y-%m-%d")}</lastmod>\n'
         sitemap_content += f'    <changefreq>{changefreq}</changefreq>\n'
         sitemap_content += f'    <priority>{priority}</priority>\n'
